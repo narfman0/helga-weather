@@ -1,19 +1,28 @@
-# helga-weather
+helga-weather
+=============
 
 Display weather from openweathermap.org.
 
-## Usage
+Usage
+-----
 
 `!weather <city>[,country code]`
 
-Country code is an optional parameter, should be two characters.
+Country code is an optional parameter, should be two characters
+
+`!weather <lat=x&lon=y>`
+
+Execute raw query against the given lat lon
 
 Examples:
+
     !weather atlanta
     !weather london,uk
+    !weather lat=35&lon=139
 
-## License
+License
+-------
 
-Copyright (c) 2014 Jon Robison
+Copyright (c) 2015 Jon Robison
 
 See included LICENSE for licensing information
