@@ -28,7 +28,7 @@ clean-pyc: ## remove Python file artifacts
 	find . -name '*~' -exec rm -f {} +
 
 lint: ## check style with flake8
-	flake8 helga_quip tests
+	flake8 helga_weather tests
 
 test: ## run tests quickly with the default Python
 	tox
