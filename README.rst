@@ -1,6 +1,12 @@
 helga-weather
 =============
 
+.. image:: https://badge.fury.io/py/helga-weather.png
+    :target: https://badge.fury.io/py/helga-weather
+
+.. image:: https://travis-ci.org/narfman0/helga-weather.png?branch=master
+    :target: https://travis-ci.org/narfman0/helga-weather
+
 Display weather from openweathermap.org.
 
 Usage

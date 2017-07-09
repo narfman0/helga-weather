@@ -24,7 +24,8 @@ setup(
     py_modules=['helga_weather.plugin'],
     zip_safe=True,
     install_requires=[
-        'requests'
+        'helga',
+        'requests',
     ],
     test_suite='',
     entry_points=dict(
